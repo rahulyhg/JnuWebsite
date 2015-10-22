@@ -90,7 +90,7 @@
                     <div class="col-md-6">
                         <div class="widget-main">
                             <div class="widget-main-title">
-                                <h4 class="widget-title">Latest News</h4>
+                                <h4 class="widget-title">News</h4>
                             </div> <!-- /.widget-main-title -->
                             <div class="widget-inner">
                                 <div class="blog-list-post clearfix">

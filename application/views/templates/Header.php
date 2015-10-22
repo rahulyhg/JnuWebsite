@@ -47,7 +47,7 @@
         </a>
         <div class="responsive_menu">
             <ul class="main_menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="<?php echo base_url(); ?>"Home</a></li>
                 <li><a href="index.html#">Events</a>
                     <ul>
                         <li><a href="events-grid.html">Events Grid</a></li>
@@ -91,20 +91,22 @@
     <header class="site-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 header-left">
-                    <p><i class="fa fa-phone"></i> +01 2334 853</p>
-                    <p><i class="fa fa-envelope"></i> <a href="mailto:email@universe.com">email@universe.com</a></p>
-                </div> <!-- /.header-left -->
-
-                <div class="col-md-4">
+                
+                <div class="col-md-6">
                     <div class="logo">
                         <a href="index.html" title="Universe" rel="home">
                             <img src="images/logo.png" alt="Universe">
                         </a>
                     </div> <!-- /.logo -->
                 </div> <!-- /.col-md-4 -->
+                <div class="col-md-6 header-right">
 
-                <div class="col-md-4 header-right">
+                
+                    <ul class="small-links">
+                        <li><i class="fa fa-phone"></i> +01 2334 853</li>
+                        <li><i class="fa fa-envelope"></i> <a href="mailto:email@universe.com">email@universe.com</a></li>
+                    </ul>
+                
                     <ul class="small-links">
                         <li><a href="index.html#">About Us</a></li>
                         <li><a href="index.html#">Contact</a></li>
@@ -123,7 +125,7 @@
             <div class="container">
                 <nav class="main-navigation clearfix visible-md visible-lg" role="navigation">
                         <ul class="main-menu sf-menu">
-                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="active"><a href="<?php echo base_url(); ?>">Home</a></li>
                             <li><a href="index.html#">Events</a>
                                 <ul class="sub-menu">
                                     <li><a href="events-grid.html">Events Grid</a></li>

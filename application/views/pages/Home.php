@@ -192,63 +192,10 @@
             <!-- Here begin Sidebar -->
             <div class="col-md-4">
 
-                <div class="widget-main">
-                    <div class="widget-main-title">
-                        <h4 class="widget-title">Top Professors</h4>
-                    </div>
-                    <div class="widget-inner">
-                        <div class="prof-list-item clearfix">
-                           <div class="prof-thumb">
-                                <img src="images/prof/prof1.jpg" alt="Profesor Name">
-                            </div> <!-- /.prof-thumb -->
-                            <div class="prof-details">
-                                <h5 class="prof-name-list">Prof. Betty Hunt</h5>
-                                <p class="small-text">Sed ut lectus ac lacus molestie posuere non tincidunt arcu.</p>
-                            </div> <!-- /.prof-details -->
-                        </div> <!-- /.prof-list-item -->
-                        <div class="prof-list-item clearfix">
-                           <div class="prof-thumb">
-                                <img src="images/prof/prof2.jpg" alt="Profesor Name">
-                            </div> <!-- /.prof-thumb -->
-                            <div class="prof-details">
-                                <h5 class="prof-name-list">Prof. Victor Johns</h5>
-                                <p class="small-text">Nullam sollicitudin libero ut ullamcorper pretium.</p>
-                            </div> <!-- /.prof-details -->
-                        </div> <!-- /.prof-list-item -->
-                        <div class="prof-list-item clearfix">
-                           <div class="prof-thumb">
-                                <img src="images/prof/prof3.jpg" alt="Profesor Name">
-                            </div> <!-- /.prof-thumb -->
-                            <div class="prof-details">
-                                <h5 class="prof-name-list">Prof. Charles Conway</h5>
-                                <p class="small-text">Integer et nisl tincidunt, euismod orci eget, posuere nunc.</p>
-                            </div> <!-- /.prof-details -->
-                        </div> <!-- /.prof-list-item -->
-                    </div> <!-- /.widget-inner -->
-                </div> <!-- /.widget-main -->
-
-                <div class="widget-main">
-                    <div class="widget-main-title">
-                        <h4 class="widget-title">Testimonial</h4>
-                    </div>
-                    <div class="widget-inner">
-                        <div id="slider-testimonials">
-                            <ul>
-                                <li>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, quos, veniam optio voluptas hic delectus soluta odit nemo harum <strong class="dark-text">Shannon D. Edwards</strong></p>
-                                </li>
-                                <li>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, quos, veniam optio voluptas hic delectus soluta odit nemo harum <strong class="dark-text">Shannon D. Edwards</strong></p>
-                                </li>
-                                <li>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, quos, veniam optio voluptas hic delectus soluta odit nemo harum <strong class="dark-text">Shannon D. Edwards</strong></p>
-                                </li>
-                            </ul>
-                            <a class="prev fa fa-angle-left" href="index.html"></a>
-                            <a class="next fa fa-angle-right" href="index.html"></a>
-                        </div>
-                    </div> <!-- /.widget-inner -->
-                </div> <!-- /.widget-main -->
+                <?php 
+                    $this->load->view('templates/NewsSidebar');
+                    $this->load->view('templates/EventSidebar');
+                ?>
 
                 <div class="widget-main">
                     <div class="widget-main-title">

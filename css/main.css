@@ -192,12 +192,12 @@ blockquote h5 {
 }
 
 .logo {
-  margin: 40px auto;
-  text-align: center;
+  margin: 20px auto;
+  text-align: left;
 }
 
 .header-right {
-  margin: 52px auto;
+  margin: 20px auto;
   text-align: right;
 }
 

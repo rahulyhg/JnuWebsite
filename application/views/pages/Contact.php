@@ -1,3 +1,14 @@
+    <!-- Being Page Title -->
+    <div class="container">
+        <div class="page-title clearfix">
+            <div class="row">
+                <div class="col-md-12">
+                    <h6><a href="index.html">Home</a></h6>
+                    <h6><span class="page-active">Contact</span></h6>
+                </div>
+            </div>
+        </div>
+    </div>
 <div class="container">
         <div class="row">
 

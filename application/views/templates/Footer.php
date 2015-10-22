@@ -7,6 +7,14 @@
                     <div class="footer-widget">
                         <h4 class="footer-widget-title">Contact Us</h4>
                         <p>The simple contact form below comes packed within this theme. </br></br>Mailing address:</br>877 Filbert Street</br> Chester, PA 19013</p>
+                        <span>
+                            <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+                        </span>
                     </div>
                 </div>
                 <div class="col-md-2">

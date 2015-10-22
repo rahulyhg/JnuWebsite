@@ -110,7 +110,7 @@
                     <ul class="small-links">
                         <li><a href="index.html#">About Us</a></li>
                         <li><a href="index.html#">Contact</a></li>
-                        <li><a href="index.html#">Apply Now</a></li>
+                        <li><a href="index.html#">Admission</a></li>
                     </ul>
                     <div class="search-form">
                         <form name="search_form" method="get" action="index.html#" class="search_form">

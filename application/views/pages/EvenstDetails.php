@@ -56,8 +56,9 @@
             <div class="col-md-4">
 
                 <?php 
+                    $this->load->view('templates/NoticeSidebar');
                     $this->load->view('templates/NewsSidebar');
-                    $this->load->view('templates/EventSidebar');
+                    $this->load->view('templates/EventsSidebar');
                 ?>
 
             </div> <!-- /.col-md-4 -->

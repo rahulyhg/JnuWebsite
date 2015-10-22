@@ -1,3 +1,20 @@
+    <!-- Being Page Title -->
+    <div class="container">
+        <div class="page-title clearfix">
+            <div class="row">
+                <div class="col-md-12">
+                    <h6><a href="index.html">Home</a></h6>
+                    <h6><span class="page-active">Events List</span></h6>
+                    <div class="grid-or-list">
+                        <ul>
+                            <li><a href="events-grid.html"><i class="fa fa-th"></i></a></li>
+                            <li><a href="events-list.html"><i class="fa fa-list"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row">
@@ -159,7 +176,7 @@
                                     </div>
                                 </div> <!-- /.blog-list-post -->
                             </div> <!-- /.widget-inner -->
-                        </div> <!-- /.widget-main -->
+                </div> <!-- /.widget-main -->
 
             </div> <!-- /.col-md-4 -->
     

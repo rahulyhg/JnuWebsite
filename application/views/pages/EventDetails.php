@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h6><a href="index.html">Home</a></h6>
-                    <h6><a href="events-list.html">Events List</a></h6>
+                    <h6><a href="events-list.html">Events</a></h6>
                     <h6><span class="page-active">Public and Patient Involvement in Health Research</span></h6>
                 </div>
             </div>

@@ -30,5 +30,7 @@
                                         <p class="blog-list-meta small-text"><span><a href="index.html#">12 January 2014</a></span> with <span><a href="index.html#">3 comments</a></span></p>
                                     </div>
                                 </div> <!-- /.blog-list-post -->
+                                <div class="view-details" style="float: right"><a href="event-single.html" class="lightBtn">See All</a></div>
+                                <div style="clear: both;"></div>
                             </div> <!-- /.widget-inner -->
                 </div> <!-- /.widget-main -->

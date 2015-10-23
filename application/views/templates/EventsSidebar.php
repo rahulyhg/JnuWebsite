@@ -2,7 +2,7 @@
                     <div class="widget-main-title">
                         <h4 class="widget-title">Upcoming Events</h4>
                     </div> <!-- /.widget-main-title -->
-                    <div class="widget-inner">
+                    <div class="widget-inner" >
                         <div class="event-small-list clearfix">
                             <div class="calendar-small">
                                 <span class="s-month">Jan</span>
@@ -33,5 +33,7 @@
                                 <p class="event-small-meta small-text">A70 Cyert Hall 12:00 PM to 1:00 PM</p>
                             </div>
                         </div>
+                        <div class="view-details" style="float: right"><a href="event-single.html" class="lightBtn">See All</a></div>
+                        <div style="clear: both;"></div>
                     </div> <!-- /.widget-inner -->
                 </div> <!-- /.widget-main -->

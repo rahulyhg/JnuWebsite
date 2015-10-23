@@ -23,7 +23,7 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="blog-grid-item">
                             <div class="blog-grid-thumb">
-                                <a href="blog.html#" class="cat-blog">Business</a>
+                                
                                 <a href="blog-single.html">
                                     <img src="images/blog/blog-thumb1.jpg" alt="">
                                 </a>
@@ -38,7 +38,6 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="blog-grid-item">
                             <div class="blog-grid-thumb">
-                                <a href="blog.html#" class="cat-blog">Government</a>
                                 <a href="blog-single.html">
                                     <img src="images/blog/blog-thumb2.jpg" alt="">
                                 </a>
@@ -53,7 +52,6 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="blog-grid-item">
                             <div class="blog-grid-thumb">
-                                <a href="blog.html#" class="cat-blog">Tech & Engineering</a>
                                 <a href="blog-single.html">
                                     <img src="images/blog/blog-thumb3.jpg" alt="">
                                 </a>
@@ -67,7 +65,6 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="blog-grid-item">
                             <div class="blog-grid-thumb">
-                                <a href="blog.html#" class="cat-blog">Family</a>
                                 <a href="blog-single.html">
                                     <img src="images/blog/blog-thumb4.jpg" alt="">
                                 </a>
@@ -81,7 +78,6 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="blog-grid-item">
                             <div class="blog-grid-thumb">
-                                <a href="blog.html#" class="cat-blog">Science</a>
                                 <a href="blog-single.html">
                                     <img src="images/blog/blog-thumb5.jpg" alt="">
                                 </a>
@@ -95,7 +91,6 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="blog-grid-item">
                             <div class="blog-grid-thumb">
-                                <a href="blog.html#" class="cat-blog">Student Achievements</a>
                                 <a href="blog-single.html">
                                     <img src="images/blog/blog-thumb6.jpg" alt="">
                                 </a>

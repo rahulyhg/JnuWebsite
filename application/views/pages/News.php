@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h6><a href="index.html">Home</a></h6>
-                    <h6><span class="page-active">News</span></h6>
+                    <h6><span class="page-active">Nahid</span></h6>
                 </div>
             </div>
         </div>

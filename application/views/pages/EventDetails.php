@@ -21,10 +21,11 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="event-container clearfix">
-                            <div class="left-event-content">
+                            <div style="display: inline; float: left; padding: 7px 20px 15px 0px">
                                 <img src="images/events/event-image.jpg" alt="">
                                 <div class="event-contact">
                                     <h4>Contact Details</h4>
+                                    <i>
                                     <ul>
                                         <li>City Events Team</li>
                                         <li>City University London</li>
@@ -34,9 +35,9 @@
                                         <li>United Kingdom</li>
                                         <li>+44 (0)20 7040 8037</li>
                                     </ul>
+                                    </i>
                                 </div>
                             </div> <!-- /.left-event-content -->
-                            <div class="right-event-content">
                                 <h2 class="event-title">Public and Patient Involvement in Health Research</h2> 
                                 <span class="event-time">Friday 22 November - Friday 24 January 2014</span>
                                 <p>During this inaugural lecture Professor Amanda Burls considers the state of public and patient involvement in shared decision making and health research. Professor Burls will discuss the activities of the Network to Amanda-Burls-NuffieldSupport Understanding of Health Research and ThinkWell, a not-for-profit organisation set up to help the public understand health information so they can make.</p>
@@ -46,7 +47,7 @@
                                 <p>In 2011 she co-organised a Conference on Enhancing Public Understanding of Health Research, which resulted in the formation of the International Network for Enhancing Understanding of Health Research.</p>
                                 <div class="google-map-canvas" id="map-canvas" style="height: 210px;">
                                 </div>
-                            </div> <!-- /.right-event-content -->
+                            
                         </div> <!-- /.event-container -->
                     </div>
                 </div> <!-- /.row -->

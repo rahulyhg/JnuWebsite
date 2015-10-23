@@ -78,15 +78,30 @@
                             <div class="request-information">
                                 <h4 class="widget-title">Vice Chancellor</h4>
                                 <hr />
-                                <div style="display: inline; float: left;">
+                                <div>
+                                <div style="display: inline; float: left; padding: 7px 20px 15px 0px">
                                     <img src="images/vc.jpg" width="180" height="180" /><br />
                                     <i>Prof. Dr. Mijanur Rahman</i>
                                 </div>
+                                
+                                    <p style="font-size: 13px;">Professor Dr. Mijanur Rahman has joined as Vice-Chancellor of Jagannath University
+                                        on March 20, 2013. Prior to joining the new post, he was a Professor of the University of Dhaka
+                                        in the Marketing Department. He was also the Treasurer of Dhaka University. 
+                                    Professor Dr. Mijanur Rahman has joined as Vice-Chancellor of Jagannath University
+                                        on March 20, 2013. Prior to joining the new post, he was a Professor of the University of Dhaka
+                                        in the Marketing Department. He was also the Treasurer of Dhaka University. 
+                                    Professor Dr. Mijanur Rahman has joined as Vice-Chancellor of Jagannath University
+                                        on March 20, 2013. Prior to joining the new post, he was a Professor of the University of Dhaka
+                                        in the Marketing Department. He was also the Treasurer of Dhaka University. 
+                                    Professor Dr. Mijanur Rahman has joined as Vice-Chancellor of Jagannath University
+                                        on March 20, 2013. Prior to joining the new post, he was a Professor of the University of Dhaka
+                                        in the Marketing Department. He was also the Treasurer of Dhaka University. </p>
+                                
+                                
 
                                 <div style="clear: both;"></div>
-                                <div>                            
-                                        <p style="font-size: 13px;">Professor Dr. Mijanur Rahman has joined as Vice-Chancellor of Jagannath University on March 20, 2013. Prior to joining the new post, he was a Professor of the University of Dhaka in the Marketing Department. He was also the Treasurer of Dhaka University. </p>
-                                </div>
+                                                            
+                               </div>
 
 
                             </div> <!-- /.request-information -->

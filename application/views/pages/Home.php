@@ -48,23 +48,9 @@
             </div> <!-- /.col-md-12 -->
             
             <div class="col-md-4">
-                <div class="widget-item">
-                    <div class="request-information">
-                        <h4 class="widget-title">Vice Chancellor</h4>
-                        <hr />
-                        <div style="display: inline; float: left;">
-                            <img src="images/vc.jpg" width="180" height="180" /><br />
-                            <i>Prof. Dr. Mijanur Rahman</i>
-                        </div>
-
-                        <div style="clear: both;"></div>
-                        <div>                            
-                                <p style="font-size: 13px;">Professor Dr. Mijanur Rahman has joined as Vice-Chancellor of Jagannath University on March 20, 2013. Prior to joining the new post, he was a Professor of the University of Dhaka in the Marketing Department. He was also the Treasurer of Dhaka University. </p>
-                        </div>
-                        
-                        
-                    </div> <!-- /.request-information -->
-                </div> <!-- /.widget-item -->
+                <?php 
+                    $this->load->view('templates/NoticeSidebar');
+                    ?>
             </div> <!-- /.col-md-4 -->
         </div>
     </div>
@@ -87,83 +73,27 @@
                 <div class="row">
                     
                     <!-- Show Latest Blog News -->
-                    <div class="col-md-6">
-                        <div class="widget-main">
-                            <div class="widget-main-title">
-                                <h4 class="widget-title">News</h4>
-                            </div> <!-- /.widget-main-title -->
-                            <div class="widget-inner">
-                                <div class="blog-list-post clearfix">
-                                    <div class="blog-list-thumb">
-                                        <a href="blog-single.html"><img src="images/blog/blog-small-thumb1.jpg" alt=""></a>
-                                    </div>
-                                    <div class="blog-list-details">
-                                        <h5 class="blog-list-title"><a href="blog-single.html">Graduate Open Day at the Ruskin</a></h5>
-                                        <p class="blog-list-meta small-text"><span><a href="index.html#">12 January 2014</a></span> with <span><a href="index.html#">3 comments</a></span></p>
-                                    </div>
-                                </div> <!-- /.blog-list-post -->
-                                <div class="blog-list-post clearfix">
-                                    <div class="blog-list-thumb">
-                                        <a href="blog-single.html"><img src="images/blog/blog-small-thumb2.jpg" alt=""></a>
-                                    </div>
-                                    <div class="blog-list-details">
-                                        <h5 class="blog-list-title"><a href="blog-single.html">Visiting Artists: Giles Bailey</a></h5>
-                                        <p class="blog-list-meta small-text"><span><a href="index.html#">12 January 2014</a></span> with <span><a href="index.html#">3 comments</a></span></p>
-                                    </div>
-                                </div> <!-- /.blog-list-post -->
-                                <div class="blog-list-post clearfix">
-                                    <div class="blog-list-thumb">
-                                        <a href="blog-single.html"><img src="images/blog/blog-small-thumb3.jpg" alt=""></a>
-                                    </div>
-                                    <div class="blog-list-details">
-                                        <h5 class="blog-list-title"><a href="blog-single.html">Workshop: Theories of the Image</a></h5>
-                                        <p class="blog-list-meta small-text"><span><a href="index.html#">12 January 2014</a></span> with <span><a href="index.html#">3 comments</a></span></p>
-                                    </div>
-                                </div> <!-- /.blog-list-post -->
-                            </div> <!-- /.widget-inner -->
-                        </div> <!-- /.widget-main -->
-                    </div> <!-- /col-md-6 -->
-                    
-                    <!-- Show Latest Events List -->
-                    <div class="col-md-6">
-                        <div class="widget-main">
-                            <div class="widget-main-title">
-                                <h4 class="widget-title">Events</h4>
-                            </div> <!-- /.widget-main-title -->
-                            <div class="widget-inner">
-                                <div class="event-small-list clearfix">
-                                    <div class="calendar-small">
-                                        <span class="s-month">Jan</span>
-                                        <span class="s-date">24</span>
-                                    </div>
-                                    <div class="event-small-details">
-                                        <h5 class="event-small-title"><a href="event-single.html">Nelson Mandela Memorial Tribute</a></h5>
-                                        <p class="event-small-meta small-text">Cramton Auditorium 9:00 AM to 1:00 PM</p>
-                                    </div>
+                    <div class="col-md-12">
+                        <div class="widget-item">
+                            <div class="request-information">
+                                <h4 class="widget-title">Vice Chancellor</h4>
+                                <hr />
+                                <div style="display: inline; float: left;">
+                                    <img src="images/vc.jpg" width="180" height="180" /><br />
+                                    <i>Prof. Dr. Mijanur Rahman</i>
                                 </div>
-                                <div class="event-small-list clearfix">
-                                    <div class="calendar-small">
-                                        <span class="s-month">Jan</span>
-                                        <span class="s-date">24</span>
-                                    </div>
-                                    <div class="event-small-details">
-                                        <h5 class="event-small-title"><a href="event-single.html">OVADA Oxford Open</a></h5>
-                                        <p class="event-small-meta small-text">Posner Center 4:30 PM to 6:00 PM</p>
-                                    </div>
+
+                                <div style="clear: both;"></div>
+                                <div>                            
+                                        <p style="font-size: 13px;">Professor Dr. Mijanur Rahman has joined as Vice-Chancellor of Jagannath University on March 20, 2013. Prior to joining the new post, he was a Professor of the University of Dhaka in the Marketing Department. He was also the Treasurer of Dhaka University. </p>
                                 </div>
-                                <div class="event-small-list clearfix">
-                                    <div class="calendar-small">
-                                        <span class="s-month">Jan</span>
-                                        <span class="s-date">24</span>
-                                    </div>
-                                    <div class="event-small-details">
-                                        <h5 class="event-small-title"><a href="event-single.html">Filming Objects And Sculpture</a></h5>
-                                        <p class="event-small-meta small-text">A70 Cyert Hall 12:00 PM to 1:00 PM</p>
-                                    </div>
-                                </div>
-                            </div> <!-- /.widget-inner -->
-                        </div> <!-- /.widget-main -->
-                    </div> <!-- /.col-md-6 -->
+
+
+                            </div> <!-- /.request-information -->
+                        </div> <!-- /.widget-item -->
+                        
+                        
+                    </div> <!-- /.col-md-12 -->
                     
                 </div> <!-- /.row -->
                 
@@ -193,7 +123,6 @@
             <div class="col-md-4">
 
                 <?php 
-                    $this->load->view('templates/NoticeSidebar');
                     $this->load->view('templates/NewsSidebar');
                     $this->load->view('templates/EventsSidebar');
                 ?>

@@ -113,26 +113,56 @@
                 </div> <!-- /.row -->
                 
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="widget-main">
-                            <div class="widget-main-title">
-                                <h4 class="widget-title">Our Campus</h4>
-                            </div> <!-- /.widget-main-title -->
-                            <div class="widget-inner">
-                                <div class="our-campus clearfix">
-                                    <ul>
-                                        <li><img src="images/campus/campus-logo1.jpg" alt=""></li>
-                                        <li><img src="images/campus/campus-logo2.jpg" alt=""></li>
-                                        <li><img src="images/campus/campus-logo3.jpg" alt=""></li>
-                                        <li><img src="images/campus/campus-logo4.jpg" alt=""></li>
-                                    </ul>
+                    <div class="col-md-4 mix students" data-cat="3">
+                        <div class="gallery-item">
+                            <a class="fancybox" rel="gallery1" href="images/gallery/gallery1.jpg">
+                                <div class="gallery-thumb">
+                                    <img src="images/gallery/gallery-thumb1.jpg" alt="" />
                                 </div>
-                            </div>
-                        </div> <!-- /.widget-main -->
-                    </div> <!-- /.col-md-12 -->
+                                <div class="box-content-inner">
+                                    <h5 class="event-title"><a href="event-single.html">Building Blocks – York’s Pension Plan</a></h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, cum, quidem aut natus odit deleniti placeat quia est quibusdam hic. Quod, minima, excepturi eum repellat tempora... <a href="event-single.html">View Details &rarr;</a></p>
+                                </div>
+                            </a>
+                        </div> <!-- /.gallery-item -->
+                    </div> <!-- /.col-md-4 -->
+
+                    <div class="col-md-4 mix campus" data-cat="1">
+                        <div class="gallery-item">
+                            <a class="fancybox" rel="gallery1" href="images/gallery/gallery3.jpg">
+                                <div class="gallery-thumb">
+                                    <img src="images/gallery/gallery-thumb2.jpg" alt="" />
+                                </div>
+                                <div class="box-content-inner">
+                                    <h5 class="event-title"><a href="event-single.html">Nelson Mandela Memorial Tribute</a></h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, cum, quidem aut natus odit deleniti placeat quia est quibusdam hic. Quod, minima, excepturi eum repellat tempora... <a href="event-single.html">View Details &rarr;</a></p>
+                                </div>
+                            </a>
+                        </div> <!-- /.gallery-item -->
+                    </div> <!-- /.col-md-4 -->
+
+                    <div class="col-md-4 mix nature" data-cat="2">
+                        <div class="gallery-item">
+                            <a class="fancybox" rel="gallery1" href="images/gallery/gallery5.jpg">
+                                <div class="gallery-thumb">
+                                    <img src="images/gallery/gallery-thumb3.jpg" alt="" />
+                                </div>
+                                <div class="box-content-inner">
+                                    <h5 class="event-title"><a href="event-single.html">January Career Centre Events</a></h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, cum, quidem aut natus odit deleniti placeat quia est quibusdam hic. Quod, minima, excepturi eum repellat tempora... <a href="event-single.html">View Details &rarr;</a></p>
+                                </div>
+                            </a>
+                        </div> <!-- /.gallery-item -->
+                    </div> <!-- /.col-md-4 -->
                 </div> <!-- /.row -->
+                <div class="row">
+                    <div class="load-more-btn">
+                            <a href="events-grid.html#">Click here to See All News</a>
+                    </div>
+                </div>
 
             </div> <!-- /.col-md-8 -->
+            
             
             <!-- Here begin Sidebar -->
             <div class="col-md-4">

@@ -256,7 +256,7 @@ blockquote h5 {
 }
 .main-menu li ul li a {
   display: block;
-  padding: 12px 20px;
+  padding: 5px 20px;
 }
 .main-menu li ul li ul {
   left: 100%;
@@ -308,7 +308,7 @@ blockquote h5 {
 }
 .main_menu li:not(:first-child) {
   border-top: 1px solid;
-  padding: 12px 0;
+  padding: 5px 0;
 }
 .main_menu li ul {
   list-style: none;
@@ -317,7 +317,7 @@ blockquote h5 {
 }
 .main_menu li ul li {
   border-top: 1px solid;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 .main_menu li ul li:before {
   content: '-';

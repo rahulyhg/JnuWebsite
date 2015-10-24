@@ -24,13 +24,15 @@
                         <div class="blog-grid-item">
                             <div class="blog-grid-thumb">
                                 
-                                <a href="blog-single.html">
+                                <a href="<?php echo base_url(); ?>NewsDetails">
                                     <img src="images/blog/blog-thumb1.jpg" alt="">
                                 </a>
                             </div>
                             <div class="box-content-inner">
-                                <h5 class="blog-grid-title"><a href="blog-single.html">When a Doctor’s Visit Is a Guilt Trip</a></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, cum, quidem aut natus odit deleniti placeat quia est quibusdam hic. Quod, minima, excepturi eum repellat tempora... <a href="event-single.html">View Details &rarr;</a></p>
+                                <h5 class="blog-grid-title"><a href="<?php echo base_url(); ?>NewsDetails">When a Doctor’s Visit Is a Guilt Trip</a></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, cum, quidem aut natus odit 
+                                    deleniti placeat quia est quibusdam hic. Quod, minima, excepturi eum repellat tempora... 
+                                    <a href="<?php echo base_url(); ?>NewsDetails">View Details &rarr;</a></p>
                                 </div> <!-- /.box-content-inner -->
                         </div> <!-- /.blog-grid-item -->
                     </div> <!-- /.col-md-6 -->

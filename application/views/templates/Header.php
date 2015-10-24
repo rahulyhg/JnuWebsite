@@ -46,7 +46,7 @@
                 <i class="fa fa-bars"></i>
             </a>
             <div class="responsive_menu">
-                <ul class="main_menu">
+                <ul class="main_menu sf-menu">
                     <?php
                     $this->load->view('/templates/topmenu');
                     ?>

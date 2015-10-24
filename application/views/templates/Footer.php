@@ -94,9 +94,9 @@ function googleTranslateElementInit() {
     </footer> <!-- /.site-footer -->
 
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/plugins.js"></script>
+    <script src="<?php echo base_url(); ?>js/custom.js"></script>
 
 </body>
 </html>

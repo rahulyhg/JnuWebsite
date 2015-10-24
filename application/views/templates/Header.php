@@ -15,23 +15,23 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800' rel='stylesheet' type='text/css'>
         
     <!-- CSS Bootstrap & Custom -->
-    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
-    <link href="css/animate.css" rel="stylesheet" media="screen">
+    <link href="<?php echo base_url(); ?>css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="<?php echo base_url(); ?>css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="<?php echo base_url(); ?>css/animate.css" rel="stylesheet" media="screen">
     
-    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="<?php echo base_url(); ?>css/style.css" rel="stylesheet" media="screen">
         
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url(); ?>images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url(); ?>images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url(); ?>images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url(); ?>images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="<?php echo base_url(); ?>images/ico/favicon.ico">
     
     <!-- JavaScripts -->
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/modernizr.js"></script>
+    <script src="<?php echo base_url(); ?>js/modernizr.js"></script>
     <!--[if lt IE 8]>
 	<div style=' clear: both; text-align:center; position: relative;'>
             <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
@@ -95,7 +95,7 @@
                 <div class="col-md-6">
                     <div class="logo">
                         <a href="index.html" title="Universe" rel="home">
-                            <img src="images/logo.png" alt="Universe">
+                            <img src="<?php echo base_url(); ?>images/logo.png" alt="Universe">
                         </a>
                     </div> <!-- /.logo -->
                 </div> <!-- /.col-md-4 -->

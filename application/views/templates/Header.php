@@ -88,7 +88,7 @@
                         </ul>
                         <div class="search-form">
                             <form name="search_form" method="get" action="index.html#" class="search_form">
-                                <input type="text" name="s" placeholder="Search the site..." title="Search the site..." class="field_search">
+                                <input type="text" name="s" placeholder="Search the site..." title="Search the site..." class="field_search" style="color: wheat">
                             </form>
                         </div>
                     </div> <!-- /.header-right -->

@@ -8,35 +8,35 @@
                     <div class="flexslider">
                         <ul class="slides">
                             <li>
-                                <img src="images/slide1.jpg" />
+                                <img src="<?php echo base_url(); ?>images/slide1.jpg" />
                                 <div class="slider-caption">
                                     <h2><a href="blog-single.html">When a Doctor’s Visit Is a Guilt Trip</a></h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="images/slide2.jpg" />
+                                <img src="<?php echo base_url(); ?>images/slide2.jpg" />
                                 <div class="slider-caption">
                                     <h2><a href="blog-single.html">Unlocking the scrolls of Herculaneum</a></h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="images/slide3.jpg" />
+                                <img src="<?php echo base_url(); ?>images/slide3.jpg" />
                                 <div class="slider-caption">
                                     <h2><a href="blog-single.html">Corin Sworn wins Max Mara Art Prize</a></h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="images/slide4.jpg" />
+                                <img src="<?php echo base_url(); ?>images/slide4.jpg" />
                                 <div class="slider-caption">
                                     <h2><a href="blog-single.html">Unlocking the scrolls of Herculaneum</a></h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="images/slide5.jpg" />
+                                <img src="<?php echo base_url(); ?>images/slide5.jpg" />
                                 <div class="slider-caption">
                                     <h2><a href="blog-single.html">Corin Sworn wins Max Mara Art Prize</a></h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
@@ -80,7 +80,7 @@
                                 <hr />
                                 <div>
                                 <div style="display: inline; float: left; padding: 7px 20px 15px 0px">
-                                    <img src="images/vc.jpg" width="180" height="180" /><br />
+                                    <img src="<?php echo base_url(); ?>images/vc.jpg" width="180" height="180" /><br />
                                     <i>Prof. Dr. Mijanur Rahman</i>
                                 </div>
                                 
@@ -115,9 +115,9 @@
                 <div class="row">
                     <div class="col-md-4 mix students" data-cat="3">
                         <div class="gallery-item">
-                            <a class="fancybox" rel="gallery1" href="images/gallery/gallery1.jpg">
+                            <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery1.jpg">
                                 <div class="gallery-thumb">
-                                    <img src="images/gallery/gallery-thumb1.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-thumb1.jpg" alt="" />
                                 </div>
                                 <div class="box-content-inner">
                                     <h5 class="event-title"><a href="event-single.html">Building Blocks – York’s Pension Plan</a></h5>
@@ -129,9 +129,9 @@
 
                     <div class="col-md-4 mix campus" data-cat="1">
                         <div class="gallery-item">
-                            <a class="fancybox" rel="gallery1" href="images/gallery/gallery3.jpg">
+                            <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery3.jpg">
                                 <div class="gallery-thumb">
-                                    <img src="images/gallery/gallery-thumb2.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-thumb2.jpg" alt="" />
                                 </div>
                                 <div class="box-content-inner">
                                     <h5 class="event-title"><a href="event-single.html">Nelson Mandela Memorial Tribute</a></h5>
@@ -143,9 +143,9 @@
 
                     <div class="col-md-4 mix nature" data-cat="2">
                         <div class="gallery-item">
-                            <a class="fancybox" rel="gallery1" href="images/gallery/gallery5.jpg">
+                            <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery5.jpg">
                                 <div class="gallery-thumb">
-                                    <img src="images/gallery/gallery-thumb3.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-thumb3.jpg" alt="" />
                                 </div>
                                 <div class="box-content-inner">
                                     <h5 class="event-title"><a href="event-single.html">January Career Centre Events</a></h5>
@@ -179,43 +179,43 @@
                     <div class="widget-inner">
                         <div class="gallery-small-thumbs clearfix">
                             <div class="thumb-small-gallery">
-                                <a class="fancybox" rel="gallery1" href="images/gallery/gallery1.jpg" title="Gallery Tittle One">
-                                    <img src="images/gallery/gallery-small-thumb1.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery1.jpg" title="Gallery Tittle One">
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-small-thumb1.jpg" alt="" />
                                 </a>
                             </div>
                             <div class="thumb-small-gallery">
-                                <a class="fancybox" rel="gallery1" href="images/gallery/gallery2.jpg" title="Gallery Tittle One">
-                                    <img src="images/gallery/gallery-small-thumb2.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery2.jpg" title="Gallery Tittle One">
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-small-thumb2.jpg" alt="" />
                                 </a>
                             </div>
                             <div class="thumb-small-gallery">
-                                <a class="fancybox" rel="gallery1" href="images/gallery/gallery3.jpg" title="Gallery Tittle One">
-                                    <img src="images/gallery/gallery-small-thumb3.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery3.jpg" title="Gallery Tittle One">
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-small-thumb3.jpg" alt="" />
                                 </a>
                             </div>
                             <div class="thumb-small-gallery">
-                                <a class="fancybox" rel="gallery1" href="images/gallery/gallery4.jpg" title="Gallery Tittle One">
-                                    <img src="images/gallery/gallery-small-thumb4.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery4.jpg" title="Gallery Tittle One">
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-small-thumb4.jpg" alt="" />
                                 </a>
                             </div>
                             <div class="thumb-small-gallery">
-                                <a class="fancybox" rel="gallery1" href="images/gallery/gallery5.jpg" title="Gallery Tittle One">
-                                    <img src="images/gallery/gallery-small-thumb5.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery5.jpg" title="Gallery Tittle One">
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-small-thumb5.jpg" alt="" />
                                 </a>
                             </div>
                             <div class="thumb-small-gallery">
-                                <a class="fancybox" rel="gallery1" href="images/gallery/gallery6.jpg" title="Gallery Tittle One">
-                                    <img src="images/gallery/gallery-small-thumb6.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery6.jpg" title="Gallery Tittle One">
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-small-thumb6.jpg" alt="" />
                                 </a>
                             </div>
                             <div class="thumb-small-gallery">
-                                <a class="fancybox" rel="gallery1" href="images/gallery/gallery7.jpg" title="Gallery Tittle One">
-                                    <img src="images/gallery/gallery-small-thumb7.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery7.jpg" title="Gallery Tittle One">
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-small-thumb7.jpg" alt="" />
                                 </a>
                             </div>
                             <div class="thumb-small-gallery">
-                                <a class="fancybox" rel="gallery1" href="images/gallery/gallery8.jpg" title="Gallery Tittle One">
-                                    <img src="images/gallery/gallery-small-thumb8.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery8.jpg" title="Gallery Tittle One">
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-small-thumb8.jpg" alt="" />
                                 </a>
                             </div>
                         </div> <!-- /.galler-small-thumbs -->

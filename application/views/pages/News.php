@@ -25,7 +25,7 @@
                             <div class="blog-grid-thumb">
                                 
                                 <a href="<?php echo base_url(); ?>NewsDetails">
-                                    <img src="images/blog/blog-thumb1.jpg" alt="">
+                                    <img src="<?php echo base_url(); ?>images/blog/blog-thumb1.jpg" alt="">
                                 </a>
                             </div>
                             <div class="box-content-inner">
@@ -41,7 +41,7 @@
                         <div class="blog-grid-item">
                             <div class="blog-grid-thumb">
                                 <a href="blog-single.html">
-                                    <img src="images/blog/blog-thumb2.jpg" alt="">
+                                    <img src="<?php echo base_url(); ?>images/blog/blog-thumb2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="box-content-inner">
@@ -55,7 +55,7 @@
                         <div class="blog-grid-item">
                             <div class="blog-grid-thumb">
                                 <a href="blog-single.html">
-                                    <img src="images/blog/blog-thumb3.jpg" alt="">
+                                    <img src="<?php echo base_url(); ?>images/blog/blog-thumb3.jpg" alt="">
                                 </a>
                             </div>
                             <div class="box-content-inner">
@@ -68,7 +68,7 @@
                         <div class="blog-grid-item">
                             <div class="blog-grid-thumb">
                                 <a href="blog-single.html">
-                                    <img src="images/blog/blog-thumb4.jpg" alt="">
+                                    <img src="<?php echo base_url(); ?>images/blog/blog-thumb4.jpg" alt="">
                                 </a>
                             </div>
                             <div class="box-content-inner">
@@ -81,7 +81,7 @@
                         <div class="blog-grid-item">
                             <div class="blog-grid-thumb">
                                 <a href="blog-single.html">
-                                    <img src="images/blog/blog-thumb5.jpg" alt="">
+                                    <img src="<?php echo base_url(); ?>images/blog/blog-thumb5.jpg" alt="">
                                 </a>
                             </div>
                             <div class="box-content-inner">
@@ -94,7 +94,7 @@
                         <div class="blog-grid-item">
                             <div class="blog-grid-thumb">
                                 <a href="blog-single.html">
-                                    <img src="images/blog/blog-thumb6.jpg" alt="">
+                                    <img src="<?php echo base_url(); ?>images/blog/blog-thumb6.jpg" alt="">
                                 </a>
                             </div>
                             <div class="box-content-inner">

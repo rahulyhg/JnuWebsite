@@ -22,7 +22,7 @@
                     <div class="col-md-12">
                         <div class="event-container clearfix">
                             <div style="display: inline; float: left; padding: 7px 20px 15px 0px">
-                                <img src="images/events/event-image.jpg" alt="">
+                                <img src="<?php echo base_url(); ?>images/events/event-image.jpg" alt="">
                                 <div class="event-contact">
                                     <h4>Contact Details</h4>
                                     <i>

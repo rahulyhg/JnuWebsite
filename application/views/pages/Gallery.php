@@ -64,9 +64,9 @@
                     
                     <div class="col-md-4 mix students" data-cat="3">
                         <div class="gallery-item">
-                            <a class="fancybox" rel="gallery1" href="images/gallery/gallery1.jpg">
+                            <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery1.jpg">
                                 <div class="gallery-thumb">
-                                    <img src="images/gallery/gallery-thumb1.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-thumb1.jpg" alt="" />
                                 </div>
                                 <div class="gallery-content">
                                     <h4 class="gallery-title">2014 Faculty Biennial</h4>
@@ -78,9 +78,9 @@
 
                     <div class="col-md-4 mix campus" data-cat="1">
                         <div class="gallery-item">
-                            <a class="fancybox" rel="gallery1" href="images/gallery/gallery3.jpg">
+                            <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery3.jpg">
                                 <div class="gallery-thumb">
-                                    <img src="images/gallery/gallery-thumb2.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-thumb2.jpg" alt="" />
                                 </div>
                                 <div class="gallery-content">
                                     <h4 class="gallery-title">Contemporary Southeastern Art</h4>
@@ -92,9 +92,9 @@
 
                     <div class="col-md-4 mix nature" data-cat="2">
                         <div class="gallery-item">
-                            <a class="fancybox" rel="gallery1" href="images/gallery/gallery5.jpg">
+                            <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery5.jpg">
                                 <div class="gallery-thumb">
-                                    <img src="images/gallery/gallery-thumb3.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-thumb3.jpg" alt="" />
                                 </div>
                                 <div class="gallery-content">
                                     <h4 class="gallery-title">Juried Student Exhibition</h4>
@@ -106,9 +106,9 @@
 
                     <div class="col-md-4 mix campus" data-cat="2">
                         <div class="gallery-item">
-                            <a class="fancybox" rel="gallery1" href="images/gallery/gallery6.jpg">
+                            <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery6.jpg">
                                 <div class="gallery-thumb">
-                                    <img src="images/gallery/gallery-thumb4.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-thumb4.jpg" alt="" />
                                 </div>
                                 <div class="gallery-content">
                                     <h4 class="gallery-title">Game Changer II</h4>
@@ -120,9 +120,9 @@
 
                     <div class="col-md-4 mix travel" data-cat="3">
                         <div class="gallery-item">
-                            <a class="fancybox" rel="gallery1" href="images/gallery/gallery7.jpg">
+                            <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery7.jpg">
                                 <div class="gallery-thumb">
-                                    <img src="images/gallery/gallery-thumb5.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-thumb5.jpg" alt="" />
                                 </div>
                                 <div class="gallery-content">
                                     <h4 class="gallery-title">Beauty of Bucknell</h4>
@@ -134,9 +134,9 @@
 
                     <div class="col-md-4 mix students" data-cat="2">
                         <div class="gallery-item">
-                            <a class="fancybox" rel="gallery1" href="images/gallery/gallery4.jpg">
+                            <a class="fancybox" rel="gallery1" href="<?php echo base_url(); ?>images/gallery/gallery4.jpg">
                                 <div class="gallery-thumb">
-                                    <img src="images/gallery/gallery-thumb6.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>images/gallery/gallery-thumb6.jpg" alt="" />
                                 </div>
                                 <div class="gallery-content">
                                     <h4 class="gallery-title">Royal Fort House</h4>

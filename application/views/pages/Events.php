@@ -28,7 +28,7 @@
                             <div class="box-content-inner clearfix">
                                 <div class="list-event-thumb">
                                     <a href="<?php echo base_url(); ?>EventDetails">
-                                        <img src="images/events/event-list-thumb1.jpg" alt="">
+                                        <img src="<?php echo base_url(); ?>images/events/event-list-thumb1.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="list-event-header">
@@ -44,7 +44,7 @@
                             <div class="box-content-inner clearfix">
                                 <div class="list-event-thumb">
                                     <a href="event-single.html">
-                                        <img src="images/events/event-list-thumb2.jpg" alt="">
+                                        <img src="<?php echo base_url(); ?>images/events/event-list-thumb2.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="list-event-header">
@@ -60,7 +60,7 @@
                             <div class="box-content-inner clearfix">
                                 <div class="list-event-thumb">
                                     <a href="event-single.html">
-                                        <img src="images/events/event-list-thumb3.jpg" alt="">
+                                        <img src="<?php echo base_url(); ?>images/events/event-list-thumb3.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="list-event-header">
@@ -76,7 +76,7 @@
                             <div class="box-content-inner clearfix">
                                 <div class="list-event-thumb">
                                     <a href="event-single.html">
-                                        <img src="images/events/event-list-thumb4.jpg" alt="">
+                                        <img src="<?php echo base_url(); ?>images/events/event-list-thumb4.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="list-event-header">

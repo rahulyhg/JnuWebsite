@@ -23,7 +23,7 @@
                     <div class="col-md-12">
                         <div class="blog-post-container">
                             <div class="blog-post-image">
-                                <img src="images/blog/blog-image.jpg" alt="">
+                                <img src="<?php echo base_url(); ?>images/blog/blog-image.jpg" alt="">
                                 <div class="blog-post-meta">
                                     <ul>
                                         <li><i class="fa fa-calendar-o"></i>24/01/2014</li>

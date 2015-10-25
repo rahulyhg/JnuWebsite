@@ -4,7 +4,6 @@ class Academics extends CI_Controller {
 
 	public function Index($page = 'faculty')
 	{
-            $this->load->helper('url');
             if(!file_exists('application/views/academics/'.$page.'.php')) {echo 'no file';return ;}
 
             

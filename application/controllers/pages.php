@@ -2,15 +2,20 @@
 
 class Pages extends CI_Controller {
 
-	public function index($page = 'home')
+	public function index()
 	{
             $this->load->helper('url');
-            if(!file_exists('application/views/pages/'.$page.'.php')) {show_404 ();}
-            
-            $data['title']= ucfirst($page);
+            $data['title']='Home';
             $this->load->view('templates/Header',$data);
-            $this->load->view('pages/'.$page);
+            $this->load->view('pages/Home');
             $this->load->view('templates/Footer');
 	}
+        public function Contact(){
+            $this->load->helper('url');
+            $data['title']='Contact';
+            $this->load->view('templates/Header',$data);
+            $this->load->view('pages/Contact');
+            $this->load->view('templates/Footer');
+        }
         
 }

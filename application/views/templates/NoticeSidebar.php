@@ -5,7 +5,7 @@
                             <div class="widget-inner">
                                 <div class="blog-list-post clearfix">
                                     <div class="blog-list-thumb">
-                                        <a href="blog-single.html"><img src="images/blog/blog-small-thumb1.jpg" alt=""></a>
+                                        <a href="blog-single.html"><img src="<?php echo base_url(); ?>images/blog/blog-small-thumb1.jpg" alt=""></a>
                                     </div>
                                     <div class="blog-list-details">
                                         <h5 class="blog-list-title"><a href="blog-single.html">Graduate Open Day at the Ruskin</a></h5>
@@ -14,7 +14,7 @@
                                 </div> <!-- /.blog-list-post -->
                                 <div class="blog-list-post clearfix">
                                     <div class="blog-list-thumb">
-                                        <a href="blog-single.html"><img src="images/blog/blog-small-thumb2.jpg" alt=""></a>
+                                        <a href="blog-single.html"><img src="<?php echo base_url(); ?>images/blog/blog-small-thumb2.jpg" alt=""></a>
                                     </div>
                                     <div class="blog-list-details">
                                         <h5 class="blog-list-title"><a href="blog-single.html">Visiting Artists: Giles Bailey</a></h5>
@@ -23,7 +23,7 @@
                                 </div> <!-- /.blog-list-post -->
                                 <div class="blog-list-post clearfix">
                                     <div class="blog-list-thumb">
-                                        <a href="blog-single.html"><img src="images/blog/blog-small-thumb3.jpg" alt=""></a>
+                                        <a href="blog-single.html"><img src="<?php echo base_url(); ?>images/blog/blog-small-thumb3.jpg" alt=""></a>
                                     </div>
                                     <div class="blog-list-details">
                                         <h5 class="blog-list-title"><a href="blog-single.html">Workshop: Theories of the Image</a></h5>

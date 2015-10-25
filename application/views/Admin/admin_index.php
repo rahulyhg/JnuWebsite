@@ -1,1 +1,24 @@
-<h1>This is admin view</h1>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        
+    </head>
+    
+    <body>
+        
+        <table>
+            <?php foreach ($designation as $positions): ?>
+            <tr>
+                <td>
+                    <?=$positions->Id?>
+                </td>
+                <td>
+                    <?=$positions->Value?>
+                </td>
+            </tr>
+            <?php endforeach; ?>
+        </table>
+     
+        
+    </body>
+</html>

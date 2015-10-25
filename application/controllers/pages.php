@@ -1,16 +1,15 @@
 <?php
 
-class Academics extends CI_Controller {
+class Pages extends CI_Controller {
 
-	public function Index($page = 'faculty')
+	public function index($page = 'home')
 	{
             $this->load->helper('url');
-            if(!file_exists('application/views/academics/'.$page.'.php')) {echo 'no file';return ;}
-
+            if(!file_exists('application/views/pages/'.$page.'.php')) {show_404 ();}
             
             $data['title']= ucfirst($page);
             $this->load->view('templates/Header',$data);
-            $this->load->view('academics/'.$page);
+            $this->load->view('pages/'.$page);
             $this->load->view('templates/Footer');
 	}
         

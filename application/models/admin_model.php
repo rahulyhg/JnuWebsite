@@ -8,12 +8,16 @@
 
 class Admin_model extends CI_Model{
     
-    public function SelectDesignation(){
-        $this->load->database();
-        $dbObject = $this->db->query("select * from designation");
-        
-        //print_r($dbObject->result());
-        return $dbObject->result();
+   
+    public function LoginCheck($data)
+    {
+        $this->db->select('*');
+        $this->db->from('users');
+        $this->db->where('UserName', $data['UserName']);
+        $this->db->where('Password', $data['Password']);
+        $this->db->where('Role', 1); // 1 for admin role 
+        $result = $this->db->get();
+        return $result;
     }
             
 }

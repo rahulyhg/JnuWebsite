@@ -1,6 +1,4 @@
 
-
-
 <!-- Main -->
 <div class="container-fluid">
     <div class="row">
@@ -18,7 +16,7 @@
                         <li><a href="#"><i class="glyphicon glyphicon-cog"></i> VC's Background</a></li>
                         <li><a href="#"><i class="glyphicon glyphicon-comment"></i> Notice/News/Events</a></li>
                        
-                        <li><a href="#"><i class="glyphicon glyphicon-off"></i> Logout</a></li>
+                        <li><a href="<?php echo base_url("index.php/admin/logout"); ?>"><i class="glyphicon glyphicon-off"></i> Logout</a></li>
                     </ul>
                 </li>
                 <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2"> Reports <i class="glyphicon glyphicon-chevron-right"></i></a>

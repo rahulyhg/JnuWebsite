@@ -15,18 +15,24 @@ class Admin extends CI_Controller{
 
     public function index(){
         
-        $this->load->model("admin_model","admodel");
-        $data['designation'] = $this->admodel->SelectDesignation();
-        
-        
-        $this->load->view('templates/admin_header');
-        $this->load->view("Admin/admin_index",$data);
-        $this->load->view('templates/admin_footer');
+        if ($this->session->userdata('userid') != null) {
+            $this->load->view('templates/admin_header');
+            $this->load->view("Admin/admin_index");
+            $this->load->view('templates/admin_footer');
+        }  else {
+            redirect('/admin/login', 'refresh');
+        }
     }
     
     
     public function login() {
-        $this->load->view('Admin/login');
+        if ($this->session->userdata('userid') != null) {
+            redirect('/admin', 'refresh');
+        }
+        else {
+            $this->load->view('Admin/login');
+        }
+        
         
     }
     
@@ -49,29 +55,43 @@ class Admin extends CI_Controller{
                 'Password' => $this->input->post('pass')
             );
 
-            $result = $this->login_model->LoginCheck($data);
+            $result = $this->admin_model->LoginCheck($data);
             if ($result->num_rows() > 0) {
                 $row = $result->row();
                 $loged_user_data = array(
-                    'fullname' => $row->name,
+                    'fullname' => $row->FullName,
                     'username' => $this->input->post('user'),
                     'password' => $this->input->post('pass'),
-                    'email' => $row->email,
-                    'designation' => $row->designation,
-                    'organization' => $row->organization,
-                    'userid' => $row->id,
-                    'roleid' => $row->role_id,
-                    'status' => $row->status,
+                    'email' => $row->Email,
+                    'designation' => $row->designationId,
+                    'userid' => $row->Id,
+                    'roleid' => $row->Role,
                     'logged_in' => TRUE
                 );
                 $this->session->set_userdata($loged_user_data);
-                redirect('/faq/cpanel', 'refresh');
+                redirect('/admin', 'refresh');
             } else {
                 $query['errMsg'] = "<br/>User Name or Password is not Exist";
                 $this->load->view('login', $query);
                 return;
             }
         }
+    }
+    
+    public function logout() {
+        $loged_user_data = array(
+            'fullname' => '',
+            'username' => '',
+            'password' => '',
+            'email' => '',
+            'designation' => '',
+            'userid' => '',
+            'roleid' => '',
+            'logged_in' => FALSE
+        );
+        $this->session->unset_userdata($loged_user_data);
+        $this->session->sess_destroy();
+        redirect('/admin/login', 'refresh');
     }
     
     

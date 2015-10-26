@@ -34,7 +34,7 @@
                         <li><a href="#">My Profile</a></li>
                     </ul>
                 </li>
-                <li><a href="#"><i class="glyphicon glyphicon-lock"></i> Logout</a></li>
+                <li><a href="<?php echo base_url("index.php/admin/logout"); ?>"><i class="glyphicon glyphicon-lock"></i> Logout</a></li>
             </ul>
         </div>
     </div>

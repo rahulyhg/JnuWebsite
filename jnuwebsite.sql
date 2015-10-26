@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.4.14
+-- version 4.5.0.2
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 25, 2015 at 05:37 PM
--- Server version: 5.6.26
--- PHP Version: 5.6.12
+-- Generation Time: Oct 26, 2015 at 10:51 AM
+-- Server version: 10.0.17-MariaDB
+-- PHP Version: 5.6.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `administration`
 --
 
-CREATE TABLE IF NOT EXISTS `administration` (
+CREATE TABLE `administration` (
   `Id` int(11) NOT NULL,
   `TeacherId` int(11) NOT NULL,
   `DesignationId` int(11) NOT NULL,
@@ -41,12 +41,20 @@ CREATE TABLE IF NOT EXISTS `administration` (
 -- Table structure for table `basedata`
 --
 
-CREATE TABLE IF NOT EXISTS `basedata` (
+CREATE TABLE `basedata` (
   `Id` int(11) NOT NULL,
   `Value` varchar(255) NOT NULL,
   `GenericName` varchar(255) NOT NULL,
   `Category` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `basedata`
+--
+
+INSERT INTO `basedata` (`Id`, `Value`, `GenericName`, `Category`) VALUES
+(1, 'admin', 'User Role', 1),
+(2, 'teacher', 'User Role', 1);
 
 -- --------------------------------------------------------
 
@@ -54,7 +62,7 @@ CREATE TABLE IF NOT EXISTS `basedata` (
 -- Table structure for table `courses`
 --
 
-CREATE TABLE IF NOT EXISTS `courses` (
+CREATE TABLE `courses` (
   `Id` int(11) NOT NULL,
   `Degree` varchar(255) NOT NULL,
   `DepartmentId` int(11) NOT NULL,
@@ -69,7 +77,7 @@ CREATE TABLE IF NOT EXISTS `courses` (
 -- Table structure for table `department`
 --
 
-CREATE TABLE IF NOT EXISTS `department` (
+CREATE TABLE `department` (
   `Id` int(11) NOT NULL,
   `Name` varchar(255) NOT NULL,
   `Chairmen` int(11) NOT NULL,
@@ -84,7 +92,7 @@ CREATE TABLE IF NOT EXISTS `department` (
 -- Table structure for table `designation`
 --
 
-CREATE TABLE IF NOT EXISTS `designation` (
+CREATE TABLE `designation` (
   `Id` int(11) NOT NULL,
   `Value` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -95,7 +103,7 @@ CREATE TABLE IF NOT EXISTS `designation` (
 -- Table structure for table `facilities`
 --
 
-CREATE TABLE IF NOT EXISTS `facilities` (
+CREATE TABLE `facilities` (
   `Id` int(11) NOT NULL,
   `Title` varchar(255) NOT NULL,
   `Description` text NOT NULL,
@@ -109,7 +117,7 @@ CREATE TABLE IF NOT EXISTS `facilities` (
 -- Table structure for table `faculty`
 --
 
-CREATE TABLE IF NOT EXISTS `faculty` (
+CREATE TABLE `faculty` (
   `Id` int(11) NOT NULL,
   `Name` varchar(255) NOT NULL,
   `DeanId` int(11) NOT NULL,
@@ -122,7 +130,7 @@ CREATE TABLE IF NOT EXISTS `faculty` (
 -- Table structure for table `faq`
 --
 
-CREATE TABLE IF NOT EXISTS `faq` (
+CREATE TABLE `faq` (
   `Id` int(11) NOT NULL,
   `Question` varchar(255) NOT NULL,
   `Answer` text NOT NULL,
@@ -135,7 +143,7 @@ CREATE TABLE IF NOT EXISTS `faq` (
 -- Table structure for table `menu`
 --
 
-CREATE TABLE IF NOT EXISTS `menu` (
+CREATE TABLE `menu` (
   `Id` int(11) NOT NULL,
   `Value` varchar(100) NOT NULL,
   `ParentId` int(11) DEFAULT NULL,
@@ -148,7 +156,7 @@ CREATE TABLE IF NOT EXISTS `menu` (
 -- Table structure for table `news_event`
 --
 
-CREATE TABLE IF NOT EXISTS `news_event` (
+CREATE TABLE `news_event` (
   `Id` int(11) NOT NULL,
   `Title` varchar(255) NOT NULL,
   `Descripton` text,
@@ -168,7 +176,7 @@ CREATE TABLE IF NOT EXISTS `news_event` (
 -- Table structure for table `research_colla`
 --
 
-CREATE TABLE IF NOT EXISTS `research_colla` (
+CREATE TABLE `research_colla` (
   `Id` int(11) NOT NULL,
   `UniversityName` varchar(255) NOT NULL,
   `Country` varchar(255) NOT NULL,
@@ -182,7 +190,7 @@ CREATE TABLE IF NOT EXISTS `research_colla` (
 -- Table structure for table `teacher`
 --
 
-CREATE TABLE IF NOT EXISTS `teacher` (
+CREATE TABLE `teacher` (
   `Id` int(11) NOT NULL,
   `Name` varchar(255) NOT NULL,
   `DesignationId` int(11) NOT NULL,
@@ -199,7 +207,7 @@ CREATE TABLE IF NOT EXISTS `teacher` (
 -- Table structure for table `university`
 --
 
-CREATE TABLE IF NOT EXISTS `university` (
+CREATE TABLE `university` (
   `Title` varchar(255) NOT NULL,
   `GeneralInformation` text NOT NULL,
   `Resources` text NOT NULL,
@@ -209,6 +217,31 @@ CREATE TABLE IF NOT EXISTS `university` (
   `VcSpeech` text NOT NULL,
   `Contact` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `Id` int(11) NOT NULL,
+  `UserName` varchar(255) NOT NULL,
+  `Password` varchar(255) NOT NULL,
+  `FullName` varchar(255) NOT NULL,
+  `Email` varchar(255) NOT NULL,
+  `DesignationId` int(11) NOT NULL,
+  `Contact` varchar(255) NOT NULL,
+  `Role` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`Id`, `UserName`, `Password`, `FullName`, `Email`, `DesignationId`, `Contact`, `Role`) VALUES
+(1, 'nishith', '123456', 'Imtiaz Zaman Nishith', 'nishith1416@gmail.com', 0, '01717423733', 1),
+(2, 'nahid', '123456', 'Nafiul Alam Nahid', 'nahid@gmail.com', 0, '01713298185', 2);
 
 --
 -- Indexes for dumped tables
@@ -287,6 +320,12 @@ ALTER TABLE `teacher`
   ADD PRIMARY KEY (`Id`);
 
 --
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`Id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -299,7 +338,7 @@ ALTER TABLE `administration`
 -- AUTO_INCREMENT for table `basedata`
 --
 ALTER TABLE `basedata`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `courses`
 --
@@ -350,6 +389,11 @@ ALTER TABLE `research_colla`
 --
 ALTER TABLE `teacher`
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

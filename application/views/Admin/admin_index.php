@@ -11,15 +11,13 @@
             <hr>
 
             <ul class="nav nav-stacked">
-                <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">Settings <i class="glyphicon glyphicon-chevron-down"></i></a>
+                <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">Home Page <i class="glyphicon glyphicon-plus-sign"></i></a>
                     <ul class="nav nav-stacked collapse in" id="userMenu">
-                        <li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-envelope"></i> Messages <span class="badge badge-info">4</span></a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-cog"></i> Options</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-comment"></i> Shoutbox</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-user"></i> Staff List</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-flag"></i> Transactions</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-exclamation-sign"></i> Rules</a></li>
+                        <li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> Slider</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-envelope"></i> Wellcome Message <span class="badge badge-info">4</span></a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-cog"></i> VC's Background</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-comment"></i> Notice/News/Events</a></li>
+                       
                         <li><a href="#"><i class="glyphicon glyphicon-off"></i> Logout</a></li>
                     </ul>
                 </li>

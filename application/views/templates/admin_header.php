@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> 
-<![endif]-->
-<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> 
-<![endif]-->
-<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="en">
     <head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
@@ -12,12 +7,12 @@
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		
-                <link href="<?php echo base_url(); ?>css/bootstrap.min.css" rel="stylesheet" media="screen">
+                <link href="<?php echo base_url('media'); ?>/css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
-                <link href="<?php echo base_url(); ?>css/adminstyles.css" rel="stylesheet" media="screen">
+                <link href="<?php echo base_url('media'); ?>/css/adminstyles.css" rel="stylesheet" media="screen">
 	</head>
     <body>
 

@@ -51,7 +51,7 @@
                         <div class="blog-post-container">
                             
                             <div class="blog-post-inner">
-                                <img src="<?php echo base_url(); ?>images/prof/prof2.jpg" width="200" height="200" alt="">
+                                <img src="<?php echo base_url('media'); ?>/images/prof/prof2.jpg" width="200" height="200" alt="">
                                 <div class="event-contact">
                                     <i><h4>Head of Office:  Dr. Md Akhtaruzzaman</h4>
                                         <h4>Designation:  Dean</h4></i>

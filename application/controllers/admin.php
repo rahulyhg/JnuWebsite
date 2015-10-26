@@ -72,7 +72,7 @@ class Admin extends CI_Controller{
                 redirect('/admin', 'refresh');
             } else {
                 $query['errMsg'] = "<br/>User Name or Password is not Exist";
-                $this->load->view('login', $query);
+                $this->load->view('admin/login', $query);
                 return;
             }
         }

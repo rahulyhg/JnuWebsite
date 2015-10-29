@@ -17,7 +17,7 @@ class Admin extends CI_Controller{
         
         if ($this->session->userdata('userid') != null) {
             $this->load->view('templates/admin_header');
-            $this->load->view("Admin/admin_index");
+            $this->load->view("Admin/index");
             $this->load->view('templates/admin_footer');
         }  else {
             redirect('/admin/login', 'refresh');
@@ -93,6 +93,8 @@ class Admin extends CI_Controller{
         $this->session->sess_destroy();
         redirect('/admin/login', 'refresh');
     }
+    
+    
     
     
 }

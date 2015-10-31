@@ -7,7 +7,10 @@
     <ul class="nav nav-stacked">
         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">Home Page <i class="glyphicon glyphicon-plus-sign"></i></a>
             <ul class="nav nav-stacked collapse in" id="userMenu">
-                <li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> Slider</a></li>
+                <li class="active">
+<!--                    <a href="#"><i class="glyphicon glyphicon-home"></i> Slider</a>-->
+                    <a href="<?php echo site_url('admin/slider') ?>"><i class="glyphicon glyphicon-home"></i> Slider</a>
+                </li>
                 <li><a href="#"><i class="glyphicon glyphicon-envelope"></i> Wellcome Message <span class="badge badge-info">4</span></a></li>
                 <li><a href="#"><i class="glyphicon glyphicon-cog"></i> VC's Background</a></li>
                 <li><a href="#"><i class="glyphicon glyphicon-comment"></i> Notice/News/Events</a></li>
